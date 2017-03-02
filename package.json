@@ -1,0 +1,10 @@
+{
+  "name": "local-emailjs",
+  "private": true,
+  "author": "Diego Reyes",
+  "main": "index.js",
+  "version": "0.0.1",
+  "dependencies": {
+    "emailjs": "^1.0.8"
+  }
+}
