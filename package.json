@@ -4,6 +4,17 @@
   "author": "Diego Reyes",
   "main": "index.js",
   "version": "0.0.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/reyesdiego/local-emailjs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reyesdiego/local-emailjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/reyesdiego/local-emailjs/issues"
+  },
   "dependencies": {
     "emailjs": "^1.0.8"
   }
