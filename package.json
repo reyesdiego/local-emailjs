@@ -16,6 +16,7 @@
     "url": "https://github.com/reyesdiego/local-emailjs/issues"
   },
   "dependencies": {
-    "emailjs": "^1.0.8"
+    "emailjs": "^1.0.8",
+    "seneca": "^3.3.0"
   }
 }
