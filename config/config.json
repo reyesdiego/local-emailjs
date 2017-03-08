@@ -1,0 +1,13 @@
+{
+    "email": {
+        "user":    "",
+        "password": "",
+        "host":    "10.10.0.176",
+        "port": "25",
+        "domain": "",
+        "from": "Administración General de Puertos <noreply@puertobuenosaires.gob.ar>",
+        "ssl":     false,
+        "status": true,
+        "throughBcc": true
+    }
+}
