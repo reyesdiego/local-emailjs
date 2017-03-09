@@ -12,13 +12,13 @@ module.exports = () => {
         process.exit();
     }
 
-    if (process.env.IP === undefined || process.env.IP === '') {
-        console.error("Variable de entorno IP no definida o inválida. El proceso se abortará");
+    if (process.env.HOST === undefined || process.env.HOST === '') {
+        console.error("Variable de entorno HOST no definida o inválida. El proceso se abortará");
         process.exit();
     }
 
     config.PORT = process.env.PORT;
-    config.IP = process.env.IP;
+    config.HOST = process.env.HOST;
 
     return config;
 };
