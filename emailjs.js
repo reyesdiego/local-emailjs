@@ -115,11 +115,6 @@ module.exports = function (options) {
 
     const seneca = this;
 
-    seneca.add({role: "email", cmd: "init"}, (args, done) => {
-        console.log("Seneca EmailJs - Role email - Cmd init");
-        done(null, {});
-    });
-
     seneca.add({role: "email", cmd: "send"}, (args, done) => {
         console.log("Seneca EmailJs - Role email - Cmd send - To %s", args.to);
         var email = new EmailJs(options);
@@ -128,7 +123,7 @@ module.exports = function (options) {
                 done(null, data);
             })
         .catch(err => {
-                done(new Error(err));
+                done(null, err);
             });
     });
 };
